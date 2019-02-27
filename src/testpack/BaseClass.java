@@ -8,9 +8,9 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("this is my modified base class by RAJESH KANNA");
 		BaseClass rajesh=new BaseClass();
-		rajesh.arraySortByRajesh();
+		rajesh.arraySortByGuna();
 	}
-public void arraySortByRajesh()
+public void arraySortByGuna()
 {
 	 int n, temp;
      Scanner s = new Scanner(System.in);
