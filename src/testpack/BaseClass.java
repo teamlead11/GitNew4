@@ -1,7 +1,8 @@
-
 package testpack;
+
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class BaseClass {
 
 	public static void main(String[] args) {
@@ -15,7 +16,8 @@ public class BaseClass {
 		System.out.println("this is my modified base class by RAJESH KANNA");
 		rajesh.sortingArray();
 		System.out.println("***Sorted Array by Nirmal****");
-
+		rajesh.lengthofarraybyramesh();
+		System.out.println("Modified Class by Ramesh");
 	}
 
 	public void arraySortByRajesh() {
@@ -43,6 +45,7 @@ public class BaseClass {
 		}
 		System.out.print(a[n - 1]);
 	}
+	
 	public void sortingArray()
 	{
 		 int n, temp;
@@ -79,7 +82,7 @@ public class BaseClass {
 	void arrayvisalvani() {
 
 		System.out.println("this is my modified base class");
-
+		
 		int a[] = new int[5];
 		a[0] = 1;
 		a[1] = 12;
@@ -91,7 +94,7 @@ public class BaseClass {
 
 			System.out.println(a[i]);
 		}
-
+		
 	}
 
 	public void arraySortByVignesh() {
@@ -128,11 +131,19 @@ public static void arraysortByGowthaman() {
     System.out.printf("Modified arr[] : %s", 
                       Arrays.toString(arr)); 
 	
-	
-
 }
 
+public void lengthofarraybyramesh() {
+	
+     Scanner r = new Scanner(System.in);
+     System.out.print("Enter length of array = ");
+     int length = r.nextInt();
+     
+	 int[] ram=new int[length];
+	 int size = ram.length;
+	 System.out.println("Length of Array = "+size);
 
+}
 
 }
 
