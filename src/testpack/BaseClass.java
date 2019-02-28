@@ -47,6 +47,8 @@ public class BaseClass {
 		case 3:
 			System.out.println("Raghav");
 			break;
+			
+			System.out.println("end");
 		}
 			 }
 			 }
