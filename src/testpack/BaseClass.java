@@ -1,12 +1,14 @@
-	package testpack;
-import java.util.Scanner;
 
+package testpack;
+import java.util.Scanner;
+import java.util.Arrays;
 public class BaseClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BaseClass rajesh = new BaseClass();
 		rajesh.arraySortByRajesh();
+		rajesh.arraysortByGowthaman();
 		rajesh.arrayvisalvani();
 		System.out.println("this is my modified base class");
 		rajesh.arraySortByVignesh();
@@ -117,6 +119,20 @@ public class BaseClass {
 			System.out.println(a[i]);
 		}
 	}
+
+public static void arraysortByGowthaman() {
+	int[] arr = {13, 7, 6, 45, 21, 9, 101, 102}; 
+	  
+    Arrays.sort(arr); 
+
+    System.out.printf("Modified arr[] : %s", 
+                      Arrays.toString(arr)); 
+	
+	
+
+}
+
+
 
 }
 
