@@ -11,6 +11,8 @@ public class BaseClass {
 		rajesh.arraySortByRajesh();
 		rajesh.arraysortByGowthaman();
 		rajesh.arrayvisalvani();
+		rajesh.arraynaveen();
+		System.out.println("Element at index by naveen");
 		System.out.println("this is my modified base class");
 		rajesh.arraySortByVignesh();
 		System.out.println("this is my modified base class by RAJESH KANNA");
@@ -96,6 +98,17 @@ public class BaseClass {
 		}
 		
 	}
+	
+public void arraynaveen() {
+	// TODO Auto-generated method stub
+
+	      int[] age = {12, 4, 5, 2, 5};
+
+	      for (int i = 0; i < 5; ++i) {
+	         System.out.println("Element at index " + i +": " + age[i]);
+	      }
+	   }
+
 
 	public void arraySortByVignesh() {
 
