@@ -1,5 +1,6 @@
 package testpack;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BaseClass {
@@ -9,6 +10,7 @@ public class BaseClass {
 		System.out.println("this is my modified base class by RAJESH KANNA");
 		BaseClass rajesh=new BaseClass();
 		rajesh.arraySortByRajesh();
+		rajesh.arraysortByGowthaman();
 	}
 public void arraySortByRajesh()
 {
@@ -41,5 +43,19 @@ public void arraySortByRajesh()
      }
      System.out.print(a[n - 1]);
  }
+
+public static void arraysortByGowthaman() {
+	int[] arr = {13, 7, 6, 45, 21, 9, 101, 102}; 
+	  
+    Arrays.sort(arr); 
+
+    System.out.printf("Modified arr[] : %s", 
+                      Arrays.toString(arr)); 
+	
+	
+
+}
+
+
 
 }
