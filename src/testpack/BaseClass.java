@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class BaseClass {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BaseClass rajesh = new BaseClass();
@@ -18,9 +17,16 @@ public class BaseClass {
 		System.out.println("this is my modified base class by RAJESH KANNA");
 		rajesh.sortingArray();
 		System.out.println("***Sorted Array by Nirmal****");
+		System.out.println("***RAGAV****");
+		rajesh.programByRagav();
+		
+		
 		rajesh.lengthofarraybyramesh();
 		System.out.println("Modified Class by Ramesh");
 	}
+		 
+
+
 
 	public void arraySortByRajesh() {
 		int n, temp;
@@ -47,7 +53,39 @@ public class BaseClass {
 		}
 		System.out.print(a[n - 1]);
 	}
-	
+	public void programByRagav()
+	{
+		 int arr[] = {1, 2, 3, 4, 5, 6, 7, 8}; 
+		  	       
+		 for (int i = 0; i < arr.length; i++) 
+	        { 
+	            if (arr[i] >= 5) 
+	            { 
+	                System.out.println("exit..."); 
+	  
+	                // Terminate JVM 
+	                System.exit(41); 
+	            } 
+	            else
+	                System.out.println("arr["+i+"] = " + 
+	                                  arr[i]); 
+	        } 
+	        System.out.println("End of Program"); 
+int roll =2;
+switch (roll) {
+case 1:
+	System.out.println("jeeva");
+	break;
+case 2:
+	System.out.println("Muthu");
+	break;
+case 3:
+	System.out.println("Raghav");
+	break;
+}
+	System.out.println("end");
+	}
+
 	public void sortingArray()
 	{
 		 int n, temp;
@@ -134,6 +172,7 @@ public void arraynaveen() {
 		for (int i = 0; i < 5; i++) {
 			System.out.println(a[i]);
 		}
+
 	}
 
 public static void arraysortByGowthaman() {
@@ -158,5 +197,7 @@ public void lengthofarraybyramesh() {
 
 }
 
-}
 
+
+	}
+	
