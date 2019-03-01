@@ -3,6 +3,7 @@ package testpack;
 
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class BaseClass {
 	public static void main(String[] args) {
@@ -22,10 +23,9 @@ public class BaseClass {
 		rajesh.programByRagav();
 		rajesh.ArrayMethodbySavi();
 		rajesh.sort();
-		
-		
 		rajesh.lengthofarraybyramesh();
 		System.out.println("Modified Class by Ramesh");
+		System.out.println("Hello All by Dinesh");
 	}
 		 
 
@@ -221,8 +221,15 @@ public void lengthofarraybyramesh() {
 
 }
 
-
-
+public void continuebydinesh() {
+	for (int i = 0; i < 10; i++) {
+		if (i==5) {
+			continue;
+		}
+		System.out.println(i);	
+		}
+		System.out.println("end");
 	}
-	
+}
+
 
