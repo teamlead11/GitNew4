@@ -208,6 +208,16 @@ public static void arraysortByGowthaman() {
                       Arrays.toString(arr)); 
 	
 }
+public void breakbydinesh() {
+	for (int i = 0; i < 10; i++) {
+		if (i==5) {
+			break;
+		}
+	System.out.println(i);
+	}
+	System.out.println("end");
+	
+}
 
 public void lengthofarraybyramesh() {
 	
