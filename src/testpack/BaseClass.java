@@ -1,64 +1,28 @@
-	package testpack;
+package testpack;
+
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class BaseClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BaseClass rajesh = new BaseClass();
 		rajesh.arraySortByRajesh();
+		rajesh.arraysortByGowthaman();
 		rajesh.arrayvisalvani();
+		rajesh.arraynaveen();
+		System.out.println("Element at index by naveen");
 		System.out.println("this is my modified base class");
 		rajesh.arraySortByVignesh();
 		System.out.println("this is my modified base class by RAJESH KANNA");
 		rajesh.sortingArray();
 		System.out.println("***Sorted Array by Nirmal****");
 		System.out.println("***RAGAV****");
-		//String S="Raghav";
-		//int i= S.length();
-		//System.out.println(i);
-		//for (int J=0;J<S.length();J++) {
-			//if(S.charAt(J)=='a') {
-				//System.out.println(J);
-		//	}
-		//}
-			 
-			 //Exit (Need to check with positive and negative values
-			 //for (char i='A';i<10;i++) {
-				 //if(i=='A') {
-				//	 System.exit('g');
-				// }
-				// System.out.println(i);
-			 //}
-			 //System.out.println("END");
-			 int arr[] = {1, 2, 3, 4, 5, 6, 7, 8}; 
-			  	       
-			 for (int i = 0; i < arr.length; i++) 
-		        { 
-		            if (arr[i] >= 5) 
-		            { 
-		                System.out.println("exit..."); 
-		  
-		                // Terminate JVM 
-		                System.exit(41); 
-		            } 
-		            else
-		                System.out.println("arr["+i+"] = " + 
-		                                  arr[i]); 
-		        } 
-		        System.out.println("End of Program"); 
-	int roll =2;
-	switch (roll) {
-	case 1:
-		System.out.println("jeeva");
-		break;
-	case 2:
-		System.out.println("Muthu");
-		break;
-	case 3:
-		System.out.println("Raghav");
-		break;
-	}
-		System.out.println("end");
+		rajesh.programByRagav();
+		
+		
+		rajesh.lengthofarraybyramesh();
+		System.out.println("Modified Class by Ramesh");
 	}
 		 
 
@@ -89,6 +53,39 @@ public class BaseClass {
 		}
 		System.out.print(a[n - 1]);
 	}
+	public void programByRagav()
+	{
+		 int arr[] = {1, 2, 3, 4, 5, 6, 7, 8}; 
+		  	       
+		 for (int i = 0; i < arr.length; i++) 
+	        { 
+	            if (arr[i] >= 5) 
+	            { 
+	                System.out.println("exit..."); 
+	  
+	                // Terminate JVM 
+	                System.exit(41); 
+	            } 
+	            else
+	                System.out.println("arr["+i+"] = " + 
+	                                  arr[i]); 
+	        } 
+	        System.out.println("End of Program"); 
+int roll =2;
+switch (roll) {
+case 1:
+	System.out.println("jeeva");
+	break;
+case 2:
+	System.out.println("Muthu");
+	break;
+case 3:
+	System.out.println("Raghav");
+	break;
+}
+	System.out.println("end");
+	}
+
 	public void sortingArray()
 	{
 		 int n, temp;
@@ -125,7 +122,7 @@ public class BaseClass {
 	void arrayvisalvani() {
 
 		System.out.println("this is my modified base class");
-
+		
 		int a[] = new int[5];
 		a[0] = 1;
 		a[1] = 12;
@@ -137,8 +134,19 @@ public class BaseClass {
 
 			System.out.println(a[i]);
 		}
-
+		
 	}
+	
+public void arraynaveen() {
+	// TODO Auto-generated method stub
+
+	      int[] age = {12, 4, 5, 2, 5};
+
+	      for (int i = 0; i < 5; ++i) {
+	         System.out.println("Element at index " + i +": " + age[i]);
+	      }
+	   }
+
 
 	public void arraySortByVignesh() {
 
@@ -164,6 +172,32 @@ public class BaseClass {
 		for (int i = 0; i < 5; i++) {
 			System.out.println(a[i]);
 		}
+
+	}
+
+public static void arraysortByGowthaman() {
+	int[] arr = {13, 7, 6, 45, 21, 9, 101, 102}; 
+	  
+    Arrays.sort(arr); 
+
+    System.out.printf("Modified arr[] : %s", 
+                      Arrays.toString(arr)); 
+	
 }
+
+public void lengthofarraybyramesh() {
+	
+     Scanner r = new Scanner(System.in);
+     System.out.print("Enter length of array = ");
+     int length = r.nextInt();
+     
+	 int[] ram=new int[length];
+	 int size = ram.length;
+	 System.out.println("Length of Array = "+size);
+
+}
+
+
+
 	}
 	
