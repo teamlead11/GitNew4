@@ -1,5 +1,6 @@
 package testpack;
 
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -19,6 +20,8 @@ public class BaseClass {
 		System.out.println("***Sorted Array by Nirmal****");
 		System.out.println("***RAGAV****");
 		rajesh.programByRagav();
+		rajesh.ArrayMethodbySavi();
+		rajesh.sort();
 		
 		
 		rajesh.lengthofarraybyramesh();
@@ -117,8 +120,29 @@ case 3:
 	     }
 	     System.out.print(a[n - 1]);
 	 }
-
-
+	int num[];
+	int n;
+	void ArrayMethodbySavi() {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Sorting the array");
+		System.out.println("Enter the values");
+		n=Integer.parseInt(sc.nextLine());
+		System.out.println("enter the numbers");
+		num=new int[n];
+		for(int i=0;i<n;i++) {
+			num[i]=Integer.parseInt(sc.nextLine());
+		}
+	}
+		void sort() {
+			Arrays.sort(num);
+			System.out.println("\n Ascending order");
+			for(int i=0;i<n;i++) {
+				System.out.println(" " +num[i]);
+				
+				
+			}
+		}
 	void arrayvisalvani() {
 
 		System.out.println("this is my modified base class");
@@ -201,3 +225,4 @@ public void lengthofarraybyramesh() {
 
 	}
 	
+
